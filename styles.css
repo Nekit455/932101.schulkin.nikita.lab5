@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.news {
+    width: 50%;
+    margin: auto;
+    height: 140px;
+    background-color: PowderBlue;
+    border-bottom: 3px solid black;
+    padding: 20px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    
+}
+
+.news:hover {
+    background-color: salmon;
+}
+
+.news h2{
+    margin-bottom: 5px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#00FF00), to(#228B22));
+    padding: 10px;
+    color: white;
+}
+
+.window{
+    display: none;
+    background-color: #D9F970;
+    width: 500px;
+    margin: 200px auto;
+    padding: 15px;
+}
+
+.window h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.back {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
